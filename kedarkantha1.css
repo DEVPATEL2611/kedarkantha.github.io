@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+#sec1{
+    background-image: url("IMG_8185.jpg");
+    background-size: cover;
+    height: 100vh;
+  
+   
+}
+#sec2{
+    background-image: url("2.jpg");
+    background-size: cover;
+    height: 100vh;
+   
+  
+   
+}
+#sec3{
+    background-image: url("2.jpg");
+    background-size: cover;
+    height: 100vh;
+   
+  
+   
+}
+#sec4{
+    background-image: url("4.jpg");
+    background-size: cover;
+    height: 100vh;
+   
+  
+   
+}
+#sec5{
+    background-image: url("2.jpg");
+    background-size: cover;
+    height: 100vh;
+   
+  
+   
+}
+
+.navbar{
+   position: fixed;
+   top: 20px;
+    padding: 5px 50px;
+    
+}
+.navitems{
+    text-decoration: none;
+    display: inline;
+     float:right;
+    
+}
+.navbar label{
+    color: white;
+    font-size: 20px;
+    border:4px solid white;
+    padding: 5px 10px;
+    position:absolute;
+    top:5px;
+
+}
+.navitems a{
+    border:2px solid transparent;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.navitems a:hover{
+    background-color:black;
+    border-radius: 30px;
+    border:2px solid white;
+
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    background-color: rgba(7, 1, 1, 0.6);
+    padding: 20px 40px;
+    
+}
+.content h1{
+    opacity: 1;
+    font-size: 70px;
+    color:white;
+}
+.content p{
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.btn{
+    position: relative;
+    top:270px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border:2px solid black;
+
+}
+.btn:hover{
+    background-color: black;
+    border:2px solid white;
+    color: white;
+}
+button:focus{
+    outline: none;
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-top: 80px;
+  }
+  
+  
+  .row::after {
+      margin-top: 20px;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.mapp{
+  
+    text-align: center;
+    width: 80%;
+    position: relative;
+    top:100px;
+    margin-left: 40px;
+}
+.mapp td{
+   
+    text-align: center;
+    padding: 40px;
+}
+.mapp h2{
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+.my1p1{
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    background-color:black;
+    margin-left: 600px;
+    margin-right: 150px;
+    padding:20px;
+    font-size: 20px;
+    color: white;
+}
+.java1{
+    margin-left: 30px;
+    width: 550px;
+    margin-top: 30px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.java2{
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 550px;
+    margin-top:30px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+.submitBtn{
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin-left: 30px;
+    margin-top:30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.submitBtn:hover{
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+}
+.mycontact{
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+}
+.my3h1{
+    margin-left: 120px;
+    color: white;
+    font-size: 30px;
+}
+.java1:focus{
+    outline: none;
+}
+.java2:focus{
+    outline: none;
+}

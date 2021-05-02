@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kedarkantha1.css">
+    <title>KEDARKANTHA</title>
+    <script>
+        function abc() {
+
+            check_name();
+            check_email();
+        }
+        function check_name() {
+            var a, b, c;
+            a = document.frm.txt2.value;
+            b = a.toUpperCase();
+            c = b.charAt(0);
+            if (c >= "A" && c <= "Z")
+                console.log("correct");
+            else
+                alert("Incorrect name");
+        }
+
+        function check_email() {
+            var a, b, c;
+            a = document.frm.txt3.value;
+            b = a.indexOf("@");
+            c = a.indexOf("@", b + 1);
+            if (b >= 0 && c == -1)
+                console.log("correct");
+            else
+                alert("Incorrect mail");
+        }
+    </script>
+</head>
+
+<body>
+    <section id="sec1">
+        <div id="mydiv1">
+            <nav class="navbar">
+                <label>NAKED ADVENTURES</label>
+                <div class="navitems">
+                    <a href="#sec1" style="margin-left: 1200px; ">HOME</a>
+                    <a href="#sec2">GALLERY</a>
+                    <a href="#sec4">MAP</a>
+
+                    <a href="#sec5">CONTACT</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>KEDARKANTHA TREK</h1>
+            <p>THE MOUNTAINS OF LORD SHIVA</p>
+            <a href="#sec3"> <button class="btn">
+                    P H O T O S
+                </button>
+            </a>
+
+        </div>
+    </section>
+    <section id="sec2">
+        <div class="row">
+            <div class="column">
+                <img src="k1.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="k5.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="k4.jpg" style="width:100%">
+            </div>
+        </div>
+
+    </section>
+    <section id="sec3">
+        <div class="row">
+            <div class="column">
+                <img src="k2.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="k3.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="k6.jpg" style="width:100%">
+            </div>
+        </div>
+
+    </section>
+    <section id="sec4">
+
+        <table class="mapp" cellspacing="30px">
+            <tr>
+                <td valign="top">
+                    <img src="map.jpg" width="400px " height="600px">
+                    <h2>MAP</h2>
+                </td>
+                <td valign="top">
+                    <img src="j1.jpg" width="300px" height="450px">
+                    <h2>Juda Ka Talab</h2>
+                </td>
+                <td valign="top">
+                    <img src="j2.jpg" width="300px" height="450px">
+                    <h2>Base Camp</h2>
+                </td>
+                <td valign="top">
+                    <img src="j3.jpg" width="300px" height="450px">
+                    <h2>Kedarkantha Peak</h2>
+                </td>
+
+            </tr>
+        </table>
+        <p class="my1p1">It is one of the most beautiful drives you will ever have to any trek.  The 18 km stretch of the dense pine forest after Purola and the drive through the Mori valley alongside River Tons will stay with you for a long time.  Do not miss to watch out for them.</p>
+    </section>
+<section id="sec5">
+    <div class="mycontact">
+        <h1 class="my3h1">GET IN TOUCH WITH US!</h1>
+    <form name="frm">
+        <input type="text" placeholder="Enter your Name here" class="java1" name="txt2"> <br>
+        <input type="text" placeholder="Enter your Email here" class="java1" name="txt3"> <br>
+        <input type="number" placeholder="Enter your Mobile-Number here" class="java1"> <br>
+        <textarea cols="30" rows="10" placeholder="Your Message and dates details..........." class="java2"></textarea> <br>
+        <input type="button" value="S U B M I T" class="submitBtn" onclick="abc()">
+    </form>
+</div>
+</section>
+
+
+</body>
+
+</html>
